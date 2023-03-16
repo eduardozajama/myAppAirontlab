@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet" type="text/css">
+
+    <title>Home Page</title>
+</head>
+<body>
+  
+     <div class="wrapper">
+      <p class="title"><span>MOVIE</span></p>
+      <p><span class="titlespan">finder</span> </p>
+
+      <div class="container">  
+            <h1 class="header">Welcome! Log in or Register    </h1> 
+            <h2 class="subheader"> Log in to find the movies you are looking for! </h2>
+          
+       <form class="form">
+         <div class="email">
+           <input type="email" name="login-email" id="email" placeholder=" Email" required>
+         </div>
+         <div class="password">
+           <input type="password" name="login-password" id="password" placeholder=" Password" required>
+           <a href="" target="_blank">
+           <img src="assets/images/eye.svg" class="eye-icon">
+           </a>
+         </div>           
+         <div class="remember-me">
+          <div>
+                <input type="checkbox" id="remember" name="remember">
+                <label class="remember">Remember me</label>
+          </div>
+          <div>      
+                <a href="views/forgot.html" class="forgot-btn">Forgot password? </a>
+          </div>
+         </div>
+           <button type="submit" class="submit-btn">Log in </button>
+       
+        
+         <div class="register">
+           <p >Not registered yet? </p>
+           <a href="views/register.html" class="register-btn"> Register now </a>
+         </div>
+
+        <div class="breakline">
+        <p class="line">______________________________</p> <span class="line">or</span><p class="line"> ______________________________ </p>
+       </div>
+
+       <div class="socialmedia-btn">
+           <img src="assets/images/facebook.svg" class="fb-icon">
+           <span class="socialmedia">Log in with Facebook</span> 
+         </a>
+       </div>
+       <div class="socialmedia-btn">
+           <img src="assets/images/twitter.svg" class="twt-icon">
+           <span class="socialmedia">Login with Twitter </span>
+        </a>
+       </div>
+       <div class="socialmedia-btn">
+           <img src="assets/images/google.svg" class="ggl-icon"></img> </span>
+           <span class="socialmedia"> Login with Google </span>
+       </a>
+      </div>
+    </form>
+
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

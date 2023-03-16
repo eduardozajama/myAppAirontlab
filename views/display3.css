@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+body{
+    background-color: #1e1e1e;
+
+}
+nav{
+    background-color: #2791C2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 14px;
+}   
+
+.titlespan{
+    font: 'Open Sans';
+    font-size: 24px;
+    font-weight: 100px;
+    color: #ffffff;
+    font-style: italic;
+}
+.title{
+    font: 'Montserrat';
+    font-size: 24px;
+    font-weight: 900px;
+    color: #ffffff;
+}
+.searchbar{
+    position:relative;
+    display: flex;
+    border-radius: 5%;
+    outline: none;
+    
+}
+.searchbar img{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+
+}
+.searchbar input{
+    padding-left: 15px;
+    font: 'Open Sans';
+    font: size 14px;
+    font-weight: 400px;
+}
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logout a{
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+}
+.logout img.eye-icon{
+    width: 30px;
+}
+.views{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    margin: 3rem 5rem 7rem 10rem;
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    
+}
+.card{
+   background-color: #1E1E1E;
+   width: px;
+   height: 450px;
+   padding: 30px;
+}
+.card-img-top{
+    width:100%;
+    height: 320px;
+    
+}
+.card-img-top img{
+    max-width: 320px;
+    height: auto;
+    display: center;
+}
+.card-body{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1)000,rgba(17, 17, 17, 1));
+    padding: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.featured-card{
+    width:100%;
+    background-color:#ffffff;
+    
+
+}
+
+.change-view{
+    display: flex;
+}
+h4{
+    font-weight: 'Open Sans';
+    font-size:24px;
+    font-weight: 400;
+}
+h2,h4, h5,p{
+    color: #ffffff;
+}

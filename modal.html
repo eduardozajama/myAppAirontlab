@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modal.css">
+
+    <title>View movie</title>
+</head>
+<body>
+    <div class="container">
+       
+          <div class="poster-container">
+            <button class="close-btn" >&times;</button>
+            <a class="modal-btn" onclick="toggle();" href="#"> Watch movie</a>
+          </div>
+          <div class="content">
+           <h2 class="title">Avatar 2</h2>
+           <h3>Overview</h3>
+           <p>Lorem, ipsum dolor sit 
+           amet consectetur adipisicing elit.
+           Ear Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quidem iusto, excepturi eligendi dolorum porro culpa possimus sequi doloribus autem
+            molestias at iure eius ducimus, corrupti inventore quaerat rerum ad!
+           </p>
+           </div>
+         <div class="info">
+         <div class="info1">
+            <h3>release date</h3>
+            <h3>gender</h3>
+         </div>
+         <div class="info2">
+            <h3>original language</h3>
+            <h3>popularity</h3>
+         </div>
+         </div>
+    </div>      
+    <div class="trailer">
+        <span class="close-trailer" onclick="toggle()">&#10006;</span>
+        <iframe id="movie-trailer" width="853" height="480" src="https://www.youtube.com/embed/d9MyW72ELq0" title="Avatar: The Way of Water | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  <script>
+    function toggle(){
+        var trailer= document.querySelector(".trailer")
+        trailer.classList.toggle("active")
+        document.getElementById('movie-trailer').src += '';
+        
+    }
+   
+  </script>
+</body>
+</html>

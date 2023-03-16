@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+ 
+body{
+    background-image: url(assets/images/bckgrnd.svg);
+    background-repeat:no-repeat ;
+    background-position:center;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 110vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.wrapper{
+   text-align: center;
+   padding: 10px;
+   margin-top: 30px;
+   margin-bottom: 50px;
+}
+.container{
+    background-color: #313131;
+    width: 445px;
+    height: 570px;
+    padding: 45px;   
+    margin: 0px;
+}
+
+.header{
+    font-family: 'Open Sans';
+    font-weight: 700px;
+    font-size: 16px;
+    text-align: center;
+  
+}
+.subheader{
+    font-family: 'Open Sans';
+    font-weight: 400px;
+    font-size: 10px;
+    text-align: center;
+}
+.form{
+    margin-top: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.password{
+    position:relative;
+    display: flex;
+    
+}
+.password img{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#email, #password{
+    
+    border-radius: 5px;
+    height: 37.19px;
+    width: 100%;
+}
+
+.submit{
+    border-radius: 31px;
+    border: none;
+    background-color: #2791C2;
+    color: #ffffff;
+    font: 'Sans S';
+    font-size: 15px;
+    font-weight: 400px;
+    padding: 13.5px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.remember-me{
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.remember{
+    color:#ffffff;
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-style:normal;
+}
+
+.titlespan{
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-weight: 100px;
+    color: #2791C2;
+    font-style: italic;
+    
+}
+.title{
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: 900px;
+    color: #2791C2;
+    
+}
+
+
+p,h1,h2 {
+    color: #ffffff;
+}
+p, .register-btn, .forgot-btn {
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-weight: 400px;
+    text-decoration: none;
+}
+.register-btn, .forgot-btn{
+    color: #2791C2;
+    
+}
+.breakline{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.breakline span{
+    color: #ffffff;
+
+}
+.socialmedia-btn {
+    
+    border: solid;
+    border-radius: 35px;
+    border-color: #ffffff;
+    padding: 8px 80px;
+    height: 45px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    margin-top: 20px;
+}
+span.socialmedia{
+    
+    font-size: 10px;
+    font-weight: 400px;
+    color: #ffffff;
+    
+}
+
+.socialmedia{
+    color: #2791C2;
+    
+
+}
